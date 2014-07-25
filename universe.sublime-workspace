@@ -1,0 +1,633 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"getVector(...)	flash.Vector<UInt>"
+			],
+			[
+				"in",
+				"insert( pos : Int , x : Int )	Void"
+			],
+			[
+				"pi",
+				"pixels	flash.display.BitmapData"
+			],
+			[
+				"Byte",
+				"ByteArray	flash.utils"
+			],
+			[
+				"Bitmap",
+				"BitmapData	flash.display"
+			],
+			[
+				"beh",
+				"behaviour_militaristic	var"
+			],
+			[
+				"beha",
+				"behaviour_expansionist	var"
+			],
+			[
+				"Civ",
+				"CivBehaviour	class"
+			],
+			[
+				"map_",
+				"map_ownership	var"
+			],
+			[
+				"re",
+				"remove( x : String )	Bool"
+			],
+			[
+				"map",
+				"map_ownership	var"
+			],
+			[
+				"total",
+				"total_research	var"
+			],
+			[
+				"habit",
+				"habitability_rating	Int"
+			],
+			[
+				"hab",
+				"habitability_rating	Int"
+			],
+			[
+				"mo",
+				"move(...)	Unknown<6>"
+			],
+			[
+				"nears",
+				"nearestDist	var"
+			],
+			[
+				"col",
+				"colMustard	var"
+			],
+			[
+				"foll",
+				"follow(...)	Void"
+			],
+			[
+				"Option",
+				"Option<T>	haxe.ds"
+			],
+			[
+				"npc",
+				"npcMid	var"
+			],
+			[
+				"c",
+				"centerOrigin()	Void"
+			],
+			[
+				"sta",
+				"stashItem( o : ui.Option )	Unknown<4>"
+			],
+			[
+				"ui_",
+				"ui_time	var"
+			],
+			[
+				"update",
+				"updateInventory	function"
+			],
+			[
+				"inven",
+				"inventory_selected	var"
+			],
+			[
+				"invent",
+				"inventory_selected	var"
+			],
+			[
+				"item_",
+				"item_portrait	var"
+			],
+			[
+				"inve",
+				"inventory_selected	var"
+			],
+			[
+				"invenot",
+				"inventory_portrait	var"
+			],
+			[
+				"inventor",
+				"inventory_name	var"
+			],
+			[
+				"inventory",
+				"inventory_portrait	var"
+			],
+			[
+				"option",
+				"optionListStack	var"
+			],
+			[
+				"Opt",
+				"OptionList	ui"
+			],
+			[
+				"MouseEvent",
+				"MouseEventManager	flixel.plugin"
+			],
+			[
+				"Op",
+				"OptionList	class"
+			],
+			[
+				"main",
+				"mainhand	var"
+			],
+			[
+				"co",
+				"concealed	Bool"
+			],
+			[
+				"item",
+				"item_portrait	var"
+			],
+			[
+				"tween",
+				"tweenStack	var"
+			],
+			[
+				"FlxP",
+				"FlxPoint	flixel.util"
+			],
+			[
+				"MouseEven",
+				"MouseEventManager	flixel.plugin"
+			],
+			[
+				"add",
+				"addOption( o : ui.Option )	Unknown<0>"
+			],
+			[
+				"optio",
+				"option_height	Float"
+			],
+			[
+				"FlXtile",
+				"FlxTilemap	flixel.tile"
+			],
+			[
+				"FlxTil",
+				"FlxTilemap	flixel.tile"
+			],
+			[
+				"move",
+				"move(...)	Unknown<0>"
+			],
+			[
+				"forma",
+				"formatPreFlavour()	String"
+			],
+			[
+				"form",
+				"formatPreFlavour()	String"
+			],
+			[
+				"custom",
+				"customVariables	var"
+			],
+			[
+				"has",
+				"hasFlavourVar(...)	Unknown<2>"
+			],
+			[
+				"rese",
+				"resetState()	Void"
+			],
+			[
+				"fom",
+				"formatPreFlavour()	String"
+			],
+			[
+				"FlxT",
+				"FlxTilemap	flixel.tile"
+			],
+			[
+				"Narrat",
+				"NarrativeGenerator	narrative"
+			],
+			[
+				"app",
+				"applyMap(...)	Unknown<1>"
+			],
+			[
+				"Tile",
+				"TileMap	class"
+			],
+			[
+				"Level",
+				"LevelThemeManager	class"
+			],
+			[
+				"customV",
+				"customVarName	var"
+			],
+			[
+				"part",
+				"party"
+			],
+			[
+				"f_",
+				"f_randparty	var"
+			],
+			[
+				"pre",
+				"preFlavour	var"
+			],
+			[
+				"sub",
+				"substring(...)	String"
+			],
+			[
+				"sb",
+				"substring(...)	String"
+			],
+			[
+				"par",
+				"party_origin	String"
+			],
+			[
+				"page",
+				"PathManager	flixel.plugin"
+			],
+			[
+				"varn",
+				"varname	var"
+			],
+			[
+				"party",
+				"party_member"
+			],
+			[
+				"en",
+				"environment	String"
+			],
+			[
+				"remove",
+				"removeAgent"
+			],
+			[
+				"deco",
+				"decoSprite	var"
+			],
+			[
+				"monsterA",
+				"monsterAgents	var"
+			],
+			[
+				"u",
+				"util	package"
+			],
+			[
+				"Flx",
+				"FlxNapeSprite	class"
+			],
+			[
+				"FlxTile",
+				"FlxTileblock	flixel.tile"
+			],
+			[
+				"create",
+				"createRectangularBody(...)	Void"
+			],
+			[
+				"FlxNAp",
+				"FlxNapeState	class"
+			],
+			[
+				"res",
+				"resetState()	Void"
+			],
+			[
+				"any",
+				"anyJustPressed(...)	Bool"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 347.0,
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/develop/haxe/universe/source/OptimizedPerlin.hx",
+		"/develop/haxe/universe/source/model/Planet.hx",
+		"/develop/haxe/universe/source/model/Star.hx",
+		"/develop/haxe/universe/source/model/Civ.hx",
+		"/develop/haxe/universe/source/MenuState.hx",
+		"/develop/haxe/universe/source/RidgedPerlin.hx",
+		"/usr/lib/haxe/std/js/html/MapElement.hx",
+		"/usr/lib/haxe/std/Map.hx",
+		"/develop/haxe/universe/source/model/Universe.hx",
+		"/develop/haxe/universe/source/Reg.hx",
+		"/develop/haxe/universe/source/Main.hx",
+		"/develop/haxe/universe/Project.xml",
+		"/usr/lib/haxe/std/flash8/ContextMenuItem.hx",
+		"/usr/lib/haxe/lib/flixel/3,3,4/CHANGELOG.md",
+		"/develop/haxe/universe/source/behaviour/PrimitiveBehaviour.hx",
+		"/develop/haxe/universe/source/behaviour/CivBehaviour.hx",
+		"/develop/haxe/universe/source/model/CivBehaviour.hx",
+		"/usr/lib/haxe/std/flash/utils/RegExp.hx",
+		"/usr/lib/haxe/lib/flixel/3,3,4/README.md",
+		"/develop/haxe/universe/source/model/Agent.hx",
+		"/Users/mtrc/Desktop/todo-list",
+		"/Users/mtrc/Desktop/Procedural Jameration",
+		"/Users/mtrc/Desktop/index.html",
+		"/develop/haxe/murder/source/model/ai/fsm/FindConversationState.hx",
+		"/develop/haxe/murder/source/model/ai/fsm/ConversationState.hx",
+		"/develop/haxe/murder/source/model/ai/HFSM.hx",
+		"/develop/haxe/murder/source/model/ai/State.hx",
+		"/develop/haxe/murder/source/model/ai/fsm/FindCocktailState.hx",
+		"/develop/haxe/murder/source/PlayState.hx",
+		"/develop/haxe/murder/source/model/item/Item.hx",
+		"/develop/haxe/murder/source/model/item/Consumable.hx",
+		"/develop/haxe/murder/source/model/object/ContainerObject.hx",
+		"/develop/haxe/murder/source/model/Agent.hx",
+		"/develop/haxe/murder/source/model/Player.hx",
+		"/develop/haxe/murder/source/model/ai/fsm/CocktailsHFSM.hx",
+		"/develop/haxe/murder/source/model/NPC.hx",
+		"/Users/mtrc/Downloads/justvector/svg/twitter.svg",
+		"/usr/lib/haxe/std/js/html/svg/PathSegLinetoAbs.hx",
+		"/usr/lib/haxe/std/js/html/svg/PointList.hx",
+		"/develop/haxe/murder/Project.xml",
+		"/Users/mtrc/Papers/aigaw/generating aesthetics/feelings.tex",
+		"/develop/haxe/murder/source/model/AgentOptions.hx",
+		"/develop/haxe/murder/source/model/object/WorldObject.hx",
+		"/develop/haxe/mtr/source/model/Level.hx",
+		"/develop/haxe/murder/TODO.txt",
+		"/develop/haxe/murder/source/model/item/Weapon.hx",
+		"/Users/mtrc/Papers/thesis/thesisbib.bib",
+		"/develop/haxe/murder/source/model/Examinable.hx",
+		"/Users/mtrc/Papers/2013/evostar2013/cook.tex",
+		"/Users/mtrc/Papers/iccc2014/angelina 6/iccc.bib",
+		"/Users/mtrc/Papers/thesis/angelina2.tex",
+		"/Users/mtrc/Papers/thesis/bg-games.tex",
+		"/Users/mtrc/Papers/thesis/thesis.tex",
+		"/Users/mtrc/Papers/thesis/angelina3.tex",
+		"/develop/haxe/murder/source/model/ai/fsm/ConversationFSM.hx",
+		"/develop/haxe/murder/source/model/ai/BehaviourManager.hx",
+		"/develop/haxe/murder/source/ui/Option.hx",
+		"/develop/haxe/murder/source/ui/OptionList.hx",
+		"/develop/haxe/murder/source/model/Item.hx",
+		"/develop/haxe/murder/source/GameClass.hx",
+		"/develop/haxe/murder/source/Reg.hx",
+		"/develop/haxe/murder/source/model/WorldObject.hx",
+		"/develop/haxe/epic/core.book",
+		"/develop/haxe/epic/source/model/TurnQueue.hx",
+		"/develop/haxe/epic/source/SegueState.hx",
+		"/develop/haxe/epic/source/model/Agent.hx",
+		"/develop/haxe/epic/source/model/NarrativeAgent.hx",
+		"/develop/haxe/epic/source/narrative/Node.hx",
+		"/develop/haxe/epic/source/model/Player.hx",
+		"/develop/haxe/epic/source/GameClass.hx",
+		"/develop/haxe/epic/source/PlayState.hx",
+		"/Volumes/FEZ/OSX.README",
+		"/develop/haxe/epic/source/narrative/OfflineBook.hx",
+		"/develop/haxe/epic/source/MenuState.hx",
+		"/develop/haxe/epic/source/BookState.hx",
+		"/develop/haxe/epic/source/narrative/NarrativeGenerator.hx",
+		"/develop/haxe/epic/source/narrative/NReg.hx",
+		"/develop/haxe/epic/source/narrative/ConGenerators.hx",
+		"/develop/haxe/epic/source/narrative/Story.hx",
+		"/develop/haxe/epic/source/gen/LevelGenerator.hx",
+		"/develop/haxe/epic/source/narrative/CastingAgency.hx",
+		"/develop/haxe/epic/source/model/TileMap.hx",
+		"/develop/haxe/epic/source/model/Monster.hx",
+		"/develop/haxe/epic/source/Reg.hx",
+		"/Users/mtrc/Desktop/Public Card/Eurogamer/Babycastles.html",
+		"/develop/haxe/epic/source/gen/LevelTemplateManager.hx",
+		"/develop/haxe/epic/source/gen/LevelThemeManager.hx",
+		"/develop/haxe/epic/source/gen/LevelEnvironmentManager.hx",
+		"/develop/haxe/epic/source/narrative/narrative.txt",
+		"/develop/haxe/epic/source/narrative/NarrativeObject.hx",
+		"/develop/haxe/epic/source/todo.txt",
+		"/develop/haxe/epic/source/Main.hx",
+		"/develop/haxe/epic/source/model/Tile.hx",
+		"/develop/haxe/epic/Project.xml",
+		"/Users/mtrc/Papers/journalpapermay13/journalbib.bib",
+		"/develop/haxe/epic/source/ui/UIQueueBar.hx",
+		"/develop/haxe/Calling/source/Level.hx",
+		"/develop/haxe/epic/source/model/SelectedHover.hx",
+		"/develop/haxe/Calling/source/PlayState.hx",
+		"/develop/haxe/epic/source/model/Actor.hx",
+		"/develop/haxe/PhysicsTest/source/Player.hx",
+		"/Users/mtrc/Desktop/calling.html",
+		"/develop/haxe/Calling/source/MenuState.hx",
+		"/develop/haxe/Calling/Calling.sublime-project",
+		"/develop/haxe/Calling/Project.xml"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"_ ",
+			"updateInve",
+			"updateInven",
+			"LUDOLO",
+			"ludolog",
+			"smith",
+			"verb",
+			"updateInven",
+			"Item",
+			"			\n",
+			"party",
+			"turnsRe",
+			"	\n",
+			"		\n",
+			"pentagrams",
+			"endTurn",
+			"linearPath",
+			"endTween",
+			".tween",
+			"tween",
+			"		\n",
+			"isMove =",
+			"timeRemaining ",
+			"timeRemaining +=",
+			"			\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "universe.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"menu",
+				"universe/source/MenuState.hx"
+			],
+			[
+				"civ",
+				"universe/source/model/Civ.hx"
+			],
+			[
+				"reg",
+				"universe/source/Reg.hx"
+			],
+			[
+				"",
+				"murder/source/PlayState.hx"
+			],
+			[
+				"player",
+				"murder/source/model/Player.hx"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 170.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

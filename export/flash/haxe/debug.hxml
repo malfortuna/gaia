@@ -1,0 +1,20 @@
+-main ApplicationMain 
+-cp /usr/lib/haxe/lib/flixel/3,3,5/
+-D flixel=3.3.5
+-cp /usr/lib/haxe/lib/lime/1,0,1/
+-D lime=1.0.1
+-cp /usr/lib/haxe/lib/openfl/2,0,1/
+-D openfl=2.0.1
+-cp source
+-cp /usr/lib/haxe/lib/openfl/2,0,1/backends/flash
+-cp /usr/lib/haxe/lib/openfl/2,0,1/backends/flash
+-D tools=1.5.7
+-D NAPE_RELEASE_BUILD
+-D openfl-flash
+-D FLX_RENDER_BLIT
+-D web
+-swf-version 11.8
+-swf export/flash/bin/universe.swf
+-swf-header 800:800:60:000000
+-cp export/flash/haxe
+-debug
