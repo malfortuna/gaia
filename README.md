@@ -1,7 +1,7 @@
 gaia
 ====
 
-(http://i.imgur.com/fYYdWde.png)
+![GAIA](http://i.imgur.com/fYYdWde.png)
 
 Prototype World Generator in Haxe+Flixel
 ----------------------------------------
