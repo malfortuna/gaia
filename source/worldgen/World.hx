@@ -47,7 +47,7 @@ class World{
 			rain_data.push(new Array<Int>());
 				
 			for(j in 0...raw[0].length){
-				trace(raw[i][j]);
+				//trace(raw[i][j]);
 				raw_map_data[i].push(raw[i][j]);
 				rivers[i].push(0);
 				forests[i].push(0);
@@ -154,7 +154,7 @@ class World{
 
 			var nationColour = colours[nations[city]];
 
-			trace(city.x+","+city.y+" - "+city.name);
+			//trace(city.x+","+city.y+" - "+city.name);
 
 			sprite.pixels.setPixel(city.x*2-1,city.y*2,nationColour);
 			sprite.pixels.setPixel(city.x*2-1,city.y*2+1,nationColour);

@@ -26,15 +26,15 @@ class WorldDecorator{
         for(i in 0...world.temp_data.length){
 			for(j in 0...world.temp_data[0].length){
 				//trace(mapVector[i+(j*world.temp_data[0].length)]);
-				trace(toRGB(mapVector[i+(j*world.temp_data[0].length)]).r);
+				//trace(toRGB(mapVector[i+(j*world.temp_data[0].length)]).r);
 				world.rain_data[i][j] = Std.int(toRGB(mapVector[i+(j*world.temp_data[0].length)]).r * world.max_rain);
-				trace(world.rain_data[i][j]);
+				//trace(world.rain_data[i][j]);
 				if(world.rain_data[i][j] < least){
 					least = world.rain_data[i][j];
 				}
 			}
 		}
-		trace(least);
+		//trace(least);
 
 		world.recolourMap();
 	}

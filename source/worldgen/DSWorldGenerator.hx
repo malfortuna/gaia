@@ -97,7 +97,7 @@ class DSWorldGenerator{
 			for(j in 0...data[i].length){
 			   	line += " "+data[i][j]+"";
 			}
-			trace(line);
+			//trace(line);
 		}
 
 		return new World(data);
@@ -125,7 +125,7 @@ class DSWorldGenerator{
 				}
 			}
 		}
-		trace("min "+min+", max "+max);
+		//trace("min "+min+", max "+max);
 
 		for(i in 0...DATA_SIZE){
 			for(j in 0...DATA_SIZE){
@@ -133,7 +133,7 @@ class DSWorldGenerator{
 				
 				var val = tile_data[i][j];
 				//val = Std.int(((val - min)/(max-min))*254);
-				trace(val);
+				//trace(val);
 
 				var col = (Math.round(val) << 16) | (Math.round(val) << 8) | Math.round(val);
 
