@@ -9,6 +9,11 @@ class World{
 	//Tiles
 	public var raw_map_data:Array<Array<Int>> = new Array<Array<Int>>();
 	public var tile_data:Array<Array<Int>> = new Array<Array<Int>>();
+	public var temp_data:Array<Array<Int>> = new Array<Array<Int>>();
+	public var max_temp = 45;
+	public var min_temp = -15;
+	public var rain_data:Array<Array<Int>> = new Array<Array<Int>>();
+	public var max_rain = 100;
 	//TODO
 	public var rivers:Array<Array<Int>> = new Array<Array<Int>>();
 	public var forests:Array<Array<Int>> = new Array<Array<Int>>();
@@ -37,8 +42,9 @@ class World{
 			forests.push(new Array<Int>());
 			metals.push(new Array<Int>());
 			food.push(new Array<Int>());
-			if(td != null)
-				tile_data.push(new Array<Int>());
+			tile_data.push(new Array<Int>());
+			temp_data.push(new Array<Int>());
+			rain_data.push(new Array<Int>());
 				
 			for(j in 0...raw[0].length){
 				trace(raw[i][j]);
@@ -47,8 +53,12 @@ class World{
 				forests[i].push(0);
 				metals[i].push(0);
 				food[i].push(0);
+				temp_data[i].push(0);
+				rain_data[i].push(0);
 				if(td != null)
 					tile_data[i].push(td[i][j]);
+				else
+					tile_data[i].push(0);
 			}
 			
 		}
@@ -57,10 +67,10 @@ class World{
 		}
 	}
 
-	public var waterline = 115;
+	public var waterline = 115+(35);
 	public var mountainlimit = 245;
-	public var hilllimit = 225;
-	public var plainslimit = 190;
+	public var hilllimit = 225+5;
+	public var plainslimit = 190+10;
 
 	public function recolourMap(){
 		for(i in 0...raw_map_data.length){
@@ -73,11 +83,26 @@ class World{
 	            else if(val < waterline){
 	                col = 0xff0099FF;
 	            }
-	            else if(val < waterline+15){
+	            else if(val < waterline+5){
 	                col = 0xffFFFF66;
 	            }
 	            else if(val < plainslimit){
-	                col = 0xff669900;
+	            	//Arctic
+	            	if(temp_data[i][j] < -5)
+	            		col = 0xffffffff;
+	            	//Colder climes
+	            	else if(temp_data[i][j] < 5){
+	            		if(Math.random() > (temp_data[i][j]+5)/10)
+	            			col = 0xffffffff;
+	            		else
+	            			col = 0xff669900;
+	            	}
+	            	else if(temp_data[i][j] > 30 && rain_data[i][j] < 40){
+	            		col = 0xffFFE680;
+	            	}
+	            	//Plains
+	            	else
+	                	col = 0xff669900;
 	            }
 	            else if(val < hilllimit && val < mountainlimit){
 	                col = 0xff666633;
@@ -87,11 +112,11 @@ class World{
 	            }
 	            tile_data[i][j] = col;
 
-	            trace(forests[i][j]);
-	            if(val < plainslimit-20 && val > waterline+30 && forests[i][j] > 125){
+	            // trace(forests[i][j]);
+	            // if(val < plainslimit-20 && val > waterline+30 && forests[i][j] > 125){
 
-	            	tile_data[i][j] = 0xff336600;
-	            }
+	            //	tile_data[i][j] = 0xff336600;
+	            //}
 	            if(rivers[i][j] > 0){
 	            	tile_data[i][j] = 0xff0099FF;
 	            }
@@ -117,10 +142,10 @@ class World{
 				
 
 
-	            sprite.pixels.setPixel(i*2,j*2,col);
-	            sprite.pixels.setPixel(i*2+1,j*2,col);
-	            sprite.pixels.setPixel(i*2,j*2+1,col);
-	            sprite.pixels.setPixel(i*2+1,j*2+1,col);
+	            sprite.pixels.setPixel(j*2,i*2,col);
+	            sprite.pixels.setPixel(j*2+1,i*2,col);
+	            sprite.pixels.setPixel(j*2,i*2+1,col);
+	            sprite.pixels.setPixel(j*2+1,i*2+1,col);
 
 			}
 		}

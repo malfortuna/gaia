@@ -1,6 +1,8 @@
 package culgen;
 
 class Religion{
+
+	
 	
 	public function new(){
 

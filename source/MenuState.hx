@@ -11,6 +11,8 @@ import flixel.FlxState;
 import flixel.text.FlxText;
 import flixel.ui.FlxButton;
 import flixel.util.FlxMath;
+import worldgen.DSWorldGenerator;
+import worldgen.WorldDecorator;
 import worldgen.WorldGenerator;
 import model.*;
 import worldgen.*;
@@ -66,10 +68,20 @@ class MenuState extends FlxState
 			//add(tile);
 		}
 
+		w = worldgen.DSWorldGenerator.generateWorld();
+		WorldDecorator.addRivers(w);
+		WorldDecorator.addTempMap(w);
+		WorldDecorator.addRainMap(w);
+		add(w.getSprite());
+		//add(worldgen.DSWorldGenerator.generateWorld());
+		
+		return;
+
 		var p:Planet = universe.planets[Std.random(universe.planets.length)];
 		//First, geography
-		w = worldgen.WorldGenerator.generateWorld();
-		WorldGenerator.addRivers(w);
+		//w = worldgen.WorldGenerator.generateWorld();
+
+		//WorldGenerator.addRivers(w);
 		
 		//FlxFlicker.flicker(starSpriteMap[p.star]);
 
@@ -89,6 +101,17 @@ class MenuState extends FlxState
 
 
 		add(w.getSprite());
+		var s = w.getSprite();
+		s.x += 65;
+		add(s);
+		s = w.getSprite();
+		s.y += 65;
+		add(s);
+		s = w.getSprite();
+		s.x += 65;
+		s.y += 65;
+		add(s);
+
 		add(log);		
 	}
 
@@ -120,7 +143,48 @@ class MenuState extends FlxState
 			// civ.worldGenTick();
 			// civ.settle(w);
 			// add(w.getSprite());
+			//add(worldgen.DSWorldGenerator.generateWorld());
+			w = worldgen.DSWorldGenerator.generateWorld();
+			add(w.getSprite());
+		}
 
+		if(FlxG.keys.justPressed.Q){
+			w.waterline -= 5;
+			w.recolourMap();
+			add(w.getSprite());
+		}
+		else if(FlxG.keys.justPressed.W){
+			w.waterline += 5;
+			w.recolourMap();
+			add(w.getSprite());
+		}
+		if(FlxG.keys.justPressed.A){
+			w.plainslimit -= 5;
+			w.recolourMap();
+			add(w.getSprite());
+		}
+		else if(FlxG.keys.justPressed.S){
+			w.plainslimit += 5;
+			w.recolourMap();
+			add(w.getSprite());
+		}
+		if(FlxG.keys.justPressed.Z){
+			w.hilllimit -= 5;
+			w.recolourMap();
+			add(w.getSprite());
+		}
+		else if(FlxG.keys.justPressed.X){
+			w.hilllimit += 5;
+			w.recolourMap();
+			add(w.getSprite());
+		}
+		if(FlxG.keys.justPressed.O){
+			worldgen.DSWorldGenerator.randChangeFactor -= 0.005;
+			trace(DSWorldGenerator.randChangeFactor);
+		}
+		else if(FlxG.keys.justPressed.P){
+			DSWorldGenerator.randChangeFactor += 0.005;
+			trace(DSWorldGenerator.randChangeFactor);
 		}
 	}	
 
